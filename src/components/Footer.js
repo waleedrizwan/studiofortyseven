@@ -4,16 +4,16 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="copyright">
-        <i className="far fa-copyright" /> ERICHKOPP {new Date().getFullYear()}
+        <i className="far fa-copyright" /> STUDIO47 {new Date().getFullYear()}
       </div>
       <div className="social-links">
-        <a
+        {/* <a
           href="https://www.linkedin.com/in/erich-kopp/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin-in" />
-        </a>
+        </a> */}
         <a
           href="https://www.instagram.com/erichkopp/"
           target="_blank"

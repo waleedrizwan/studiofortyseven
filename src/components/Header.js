@@ -20,10 +20,11 @@ export default function Header(props) {
   return (
     <div className="header">
       <div className="logo" onClick={() => window.location.reload()}>
-        <h1>ERICH KOPP</h1>
-        <h4>FILM PHOTOGRAPHY</h4>
+        <h1>Studio-47</h1>
+        <h4>Photography</h4>
       </div>
-      <div className="header-links">
+      <div className="header-links">      
+      <div onClick={handleLinkClick}>INSTAGRAM</div>
         <div onClick={handleLinkClick}>WORK</div>
         <div onClick={handleLinkClick}>CONTACT</div>
       </div>

@@ -15,23 +15,15 @@ export default function Work() {
     };
 
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
   });
 
   let images = [];
-  for (let i = 1; i < 34; i++) {
+  for (let i = 0; i < 4; i++) {
     images.push(
-      // <img
-      //   key={i}
-      //   src={`https://erichkopp.github.io/assets/${i}.jpg`}
-      //   className="scrolling-img"
-      //   alt=""
-      //   onClick={() => handleOpenModal(i)}
-      // />
       <ReactImageAppear
         key={i}
-        src={`https://erichkopp.github.io/assets/${i}.jpg`}
+        src={`https://waleedrizwan.github.io/assets/${i}.jpg`}        
         className="scrolling-img"
         alt={`Image ${i}`}
         onClick={() => handleOpenModal(i)}
@@ -80,7 +72,7 @@ export default function Work() {
       {images}
 
       <div className="mobile-copyright">
-        <i className="far fa-copyright" /> ERICHKOPP 2020
+        <i className="far fa-copyright" /> STUDIO 47 2022
       </div>
 
       <Arrows
