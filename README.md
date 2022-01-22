@@ -1,6 +1,3 @@
-# React-Photo-Portfolio
-My personal photography portfolio website built with ReactJS
+## Studio 47 Website (Under Construction)
 
-https://photo.erichkopp.com
-
-![Screenshot](screenshot.png)
+***Would not be possible without [Eric Kopp](https://github.com/erichkopp) and his wonderful template***
